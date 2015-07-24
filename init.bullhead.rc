@@ -73,6 +73,7 @@ on init
     write /proc/sys/vm/page-cluster 0
 
 on fs
+    symlink /dev/block/platform/soc.0/f9824900.sdhci /dev/block/bootdevice
     mount_all ./fstab.bullhead
     swapon_all ./fstab.bullhead
 
@@ -95,8 +96,6 @@ on early-boot
     verity_update_state
 
 on boot
-    symlink /dev/block/platform/soc.0/f9824900.sdhci /dev/block/bootdevice
-
     # execute script to set initial CPU settings
     # don't run as a service to avoid race conditions
     exec - root root system -- /system/bin/init.bullhead.power.sh
