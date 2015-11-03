@@ -13,6 +13,10 @@ $(call inherit-product, vendor/omni/config/gsm.mk)
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 
+# TWRP
+PRODUCT_COPY_FILES += \
+    device/lge/bullhead/twrp.fstab:recovery/root/etc/twrp.fstab
+
 # Override product naming for Omni
 PRODUCT_NAME := omni_bullhead
 PRODUCT_BRAND := google
