@@ -13,6 +13,11 @@ $(call inherit-product, vendor/omni/config/gsm.mk)
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 
+
+# Allow tethering without provisioning app
+PRODUCT_PROPERTY_OVERRIDES += \
+    net.tethering.noprovisioning=true
+
 # TWRP
 PRODUCT_COPY_FILES += \
     device/lge/bullhead/twrp.fstab:recovery/root/etc/twrp.fstab
