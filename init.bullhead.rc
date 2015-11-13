@@ -71,6 +71,8 @@ on init
 
     write /proc/sys/vm/page-cluster 0
 
+    symlink -s /vendor /system/vendor
+
 on fs
     mount_all ./fstab.bullhead
     swapon_all ./fstab.bullhead
