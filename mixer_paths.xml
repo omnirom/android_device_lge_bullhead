@@ -1551,11 +1551,17 @@
     </path>
 
     <path name="speaker">
-        <ctl name="SLIM RX1 MUX" value="AIF1_PB" />
-        <ctl name="SLIM_0_RX Channels" value="One" />
-        <ctl name="RX7 MIX1 INP1" value="RX1" />
-        <path name="speaker-gain-default" />
-        <ctl name="COMP0 Switch" value="1" />
+      <ctl name="SLIM RX1 MUX" value="AIF1_PB" />
+      <ctl name="SLIM RX2 MUX" value="AIF1_PB" />
+      <ctl name="SLIM_0_RX Channels" value="Two" />
+      <ctl name="RX7 MIX1 INP1" value="RX1" />
+      <ctl name="RX1 MIX1 INP1" value="RX2" />
+      <ctl name="CLASS_H_DSM MUX" value="DSM_HPHL_RX1" />
+      <ctl name="DAC1 Switch" value="1" />
+      <ctl name="COMP0 Switch" value="1" />
+      <ctl name="HPHL DAC Switch" value="1" />
+      <ctl name="RX1 Digital Volume" value="87" />
+      <ctl name="RX7 Digital Volume" value="84" />
     </path>
 
     <path name="speaker-liquid">
