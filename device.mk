@@ -70,10 +70,6 @@ PRODUCT_COPY_FILES += \
     device/lge/bullhead/qpnp_pon.kl:system/usr/keylayout/qpnp_pon.kl \
     device/lge/bullhead/uinput-fpc.kl:system/usr/keylayout/uinput-fpc.kl
 
-# for launcher layout
-PRODUCT_PACKAGES += \
-    BullheadLayout
-
 # Prebuilt input device calibration files
 PRODUCT_COPY_FILES += \
     device/lge/bullhead/synaptics_rmi4_i2c.idc:system/usr/idc/synaptics_rmi4_i2c.idc
