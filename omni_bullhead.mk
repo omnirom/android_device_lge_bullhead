@@ -17,6 +17,10 @@ TARGET_BOOTANIMATION_SIZE := 960x640
 PRODUCT_PROPERTY_OVERRIDES += \
     net.tethering.noprovisioning=true
 
+# RIL
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.ril.force_eri_from_xml=true
+
 # SELinux
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1
