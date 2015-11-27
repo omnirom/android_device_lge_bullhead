@@ -14,6 +14,10 @@ $(call inherit-product, vendor/omni/config/common.mk)
 PRODUCT_PACKAGES += \
     camera.msm8992
 
+# SELinux
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.build.selinux=1
+
 # TWRP
 PRODUCT_COPY_FILES += \
     device/lge/bullhead/twrp.fstab:recovery/root/etc/twrp.fstab
