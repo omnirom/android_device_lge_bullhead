@@ -9,6 +9,12 @@ TARGET_NO_DSPMANAGER := true
 # Enable vendor image symlink
 BOARD_NEEDS_VENDORIMAGE_SYMLINK := true
 
+# Healthd
+HEALTHD_ENABLE_TRICOLOR_LED := true
+RED_LED_PATH := /sys/class/leds/red/brightness
+GREEN_LED_PATH := /sys/class/leds/green/brightness
+BLUE_LED_PATH := /sys/class/leds/blue/brightness
+
 # Keymaster - Wait for qseecom to load
 TARGET_KEYMASTER_WAIT_FOR_QSEE := true
 
