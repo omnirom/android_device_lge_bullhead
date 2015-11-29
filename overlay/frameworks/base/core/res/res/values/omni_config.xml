@@ -18,4 +18,8 @@
          We set this to yellow as low is red and charged is green -->
     <integer name="config_notificationsBatteryMediumARGB">0xFFFFFF00</integer>
 
+    <!-- Hide Project Fi app unless it is being used -->
+    <string-array name="config_disabledUntilUsedPreinstalledCarrierApps">
+        <item>com.google.android.apps.tycho</item>
+    </string-array>
 </resources>
