@@ -19,7 +19,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.ril.force_eri_from_xml=true
+    ro.ril.force_eri_from_xml=true \
+    ro.telephony.get_imsi_from_sim=true
 
 # SELinux
 PRODUCT_PROPERTY_OVERRIDES += \
