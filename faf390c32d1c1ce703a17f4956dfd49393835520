@@ -16,6 +16,23 @@
       "revId": "faf390c32d1c1ce703a17f4956dfd49393835520",
       "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "98faad2e_7277a09a",
+        "filename": "setup-makefiles.sh",
+        "patchSetId": 7
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000124
+      },
+      "writtenOn": "2016-01-29T00:30:57Z",
+      "side": 1,
+      "message": "redundant",
+      "revId": "faf390c32d1c1ce703a17f4956dfd49393835520",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
     }
   ]
 }
