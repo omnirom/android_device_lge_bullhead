@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "98faad2e_b245284b",
+        "filename": "extract-files.sh",
+        "patchSetId": 7
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1000124
+      },
+      "writtenOn": "2016-01-29T00:28:44Z",
+      "side": 1,
+      "message": "can probably just use \"$DIR\" here instead of using another var",
+      "revId": "faf390c32d1c1ce703a17f4956dfd49393835520",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
+    }
+  ]
+}
