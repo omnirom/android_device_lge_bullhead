@@ -32,8 +32,6 @@ function extract() {
         DEST=$FILE
       fi
       DIR=`dirname $DEST`
-      SYSTEM='system/'
-      VENDOR='vendor/'
       if [ ! -d $BASE/$DIR ]; then
         if [ $(echo $DIR | grep system) ]; then
             DIR2=${DIR#'system/'}
@@ -65,6 +63,10 @@ function extract() {
                 DEST2=${DEST#'system/'}
             elif [ $(echo $DEST | grep vendor) ]; then
                 DEST2=${DEST#'vendor/'}
+            fi
+            DIR2=`dirname $DEST`
+            if [ ! -d $BASE/$DIR2 ]; then
+                mkdir -p $2/$DIR2
             fi
             cp $SRC/$FILE $BASE/$DEST2
         fi
