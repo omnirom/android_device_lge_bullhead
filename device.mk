@@ -386,8 +386,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     power.bullhead
 
-# Modem debugger/misc
-ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
+# Modem debugger
+ifneq (,$(filter eng, $(TARGET_BUILD_VARIANT)))
 PRODUCT_PACKAGES += \
     QXDMLogger
 
