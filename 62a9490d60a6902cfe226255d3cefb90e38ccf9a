@@ -16,6 +16,24 @@
       "revId": "62a9490d60a6902cfe226255d3cefb90e38ccf9a",
       "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "98faad2e_150cb845",
+        "filename": "recovery/root/sbin/pulldecryptfiles.sh",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000124
+      },
+      "writtenOn": "2016-03-11T16:31:15Z",
+      "side": 1,
+      "message": "something along the lines of:\n\nif $(getprop vendor/build.prop/build_id) \u003d\u003d MHC19J; then\n    cp /vendor/lib64/libkmcrypto.so /sbin/libkmcrypto.so\nfi\n\nthat\u0027s not syntactically correct, but the meaning is there",
+      "parentUuid": "98faad2e_55124063",
+      "revId": "62a9490d60a6902cfe226255d3cefb90e38ccf9a",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
     }
   ]
 }
