@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "98faad2e_55124063",
+        "filename": "recovery/root/sbin/pulldecryptfiles.sh",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000124
+      },
+      "writtenOn": "2016-03-11T16:28:33Z",
+      "side": 1,
+      "message": "Let\u0027s conditionalize this so those with MMB29V boot stack aren\u0027t exposed to any problems",
+      "revId": "62a9490d60a6902cfe226255d3cefb90e38ccf9a",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
+    }
+  ]
+}
