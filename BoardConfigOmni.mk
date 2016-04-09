@@ -14,6 +14,9 @@ TARGET_USE_DEVICE_AUDIO_EFFECTS_CONF := true
 # Ignore vendor audio_effects.conf
 TARGET_IGNORE_VENDOR_AUDIO_EFFECTS_CONF := true
 
+# Enable speaker protection
+AUDIO_FEATURE_ENABLED_SPKR_PROTECTION := true
+
 # Enable vendor image symlink
 BOARD_NEEDS_VENDORIMAGE_SYMLINK := true
 
