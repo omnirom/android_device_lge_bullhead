@@ -207,10 +207,6 @@ PRODUCT_PACKAGES += \
     activity_recognition.bullhead \
     sensortool.bullhead
 
-PRODUCT_PACKAGES += \
-    keystore.msm8992 \
-    gatekeeper.msm8992
-
 # For android_filesystem_config.h
 PRODUCT_PACKAGES += \
    fs_config_files
