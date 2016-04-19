@@ -3,3 +3,5 @@ type qseecomtee_prop, property_type;
 type radio_atfwd_prop, property_type;
 type qcom_ims_prop, property_type;
 type contexthub_prop, property_type;
+# Sony Timekeep
+type timekeep_prop, property_type;
