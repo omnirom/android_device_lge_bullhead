@@ -407,10 +407,12 @@ service msm_irqbalance /system/bin/msm_irqbalance -f /vendor/etc/msm_irqbalance.
     group root
     writepid /dev/cpuset/system-background/tasks
 
-service time_daemon /system/bin/time_daemon
+# OSS time
+service timekeep /system/bin/timekeep restore
     class late_start
     user root
     group root
+    oneshot
 
 service charger /sbin/healthd -c
     class charger
