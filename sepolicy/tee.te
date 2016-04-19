@@ -39,8 +39,6 @@ binder_use(tee)
 
 allow tee system_app:unix_dgram_socket sendto;
 
-allow tee time_daemon:unix_stream_socket connectto;
-
 # allow tee to access data partition
 allow tee system_data_file:dir r_dir_perms;
 allow tee fingerprintd_data_file:dir rw_dir_perms;
