@@ -8,3 +8,5 @@ allow system_app cne_service:service_manager add;
 allow system_app cnd_data_file:dir w_dir_perms;
 # allow CNEService to create profile.txt
 allow system_app cnd_data_file:file create_file_perms;
+# Sony Timekeep
+allow system_app timekeep_prop:property_service set;
