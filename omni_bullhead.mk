@@ -32,6 +32,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1
 
+# Sony Timekeep
+PRODUCT_PACKAGES += \
+    timekeep \
+    Timekeep
+
 # TWRP
 PRODUCT_COPY_FILES += \
     device/lge/bullhead/twrp.fstab:recovery/root/etc/twrp.fstab
