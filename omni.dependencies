@@ -10,5 +10,11 @@
     "repository": "platform/hardware/qcom/camera",
     "target_path": "hardware/qcom/camera",
     "revision": "refs/tags/android-6.0.1_r43"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_packages_apps_SnapdragonCamera",
+    "target_path": "packages/apps/SnapdragonCamera",
+    "revision": "android-6.0"
   }
 ]
