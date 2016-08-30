@@ -1,0 +1,26 @@
+[
+  {
+    "remote": "omnirom",
+    "repository": "android_kernel_lge_bullhead",
+    "target_path": "kernel/lge/bullhead",
+    "revision": "android-7.0"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_hardware_qcom_camera",
+    "target_path": "hardware/qcom/camera",
+    "revision": "android-7.0"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_hardware_qcom_gps",
+    "target_path": "hardware/qcom/gps",
+    "revision": "android-7.0"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_packages_apps_SnapdragonCamera",
+    "target_path": "packages/apps/SnapdragonCamera",
+    "revision": "android-7.0"
+  }
+]
