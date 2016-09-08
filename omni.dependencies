@@ -4,5 +4,17 @@
     "repository": "android_kernel_lge_bullhead",
     "target_path": "kernel/lge/bullhead",
     "revision": "android-7.0"
+  },
+  {
+    "remote": "aosp",
+    "repository": "platform/hardware/qcom/camera",
+    "target_path": "hardware/qcom/camera",
+    "revision": "refs/tags/android-7.0.0_r4"
+  },
+  {
+    "remote": "aosp",
+    "repository": "platform/hardware/qcom/gps",
+    "target_path": "hardware/qcom/gps",
+    "revision": "refs/tags/android-7.0.0_r4"
   }
 ]
