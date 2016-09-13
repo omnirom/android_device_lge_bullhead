@@ -17,13 +17,12 @@
 #
 # <src relative to root of extracted filesystem>:<dst relative to system>
 
--app/atfwd/atfwd.apk
 -app/HiddenMenu/HiddenMenu.apk
--app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 -app/RCSBootstraputil/RCSBootstraputil.apk
 -app/RcsImsBootstraputil/RcsImsBootstraputil.apk
 -app/TimeService/TimeService.apk
 -app/Tycho/Tycho.apk:PRESIGNED
+-priv-app/atfwd/atfwd.apk
 -priv-app/CNEService/CNEService.apk
 -priv-app/ConnMO/ConnMO.apk
 -priv-app/DCMO/DCMO.apk
@@ -33,6 +32,7 @@
 -priv-app/GCS/GCS.apk:PRESIGNED
 -priv-app/HotwordEnrollment/HotwordEnrollment.apk:PRESIGNED
 -priv-app/LifeTimerService/LifeTimerService.apk
+-priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 -priv-app/SprintDM/SprintDM.apk
 bin/ATFWD-daemon
 bin/btnvtool
@@ -40,7 +40,6 @@ bin/cnd
 bin/cnss-daemon
 bin/fingerprintd
 bin/ims_rtp_daemon
-bin/imscmservice
 bin/imsdatadaemon
 bin/imsqmidaemon
 bin/irsc_util
@@ -91,9 +90,7 @@ etc/thermal-engine-8992.conf
 -framework/qcrilhook.jar
 -framework/rcsimssettings.jar
 -framework/rcsservice.jar
-lib/hw/camera.msm8992.so
 lib/hw/fingerprint.bullhead.so
-lib/hw/gps.msm8992.so
 lib/hw/local_time.default.so
 lib/hw/nfc_nci.bullhead.so
 lib/lib_fpc_tac_shared.so
@@ -101,21 +98,10 @@ lib/libdmengine.so
 lib/libdmengine.so:priv-app/DMService/lib/arm/libdmengine.so
 lib/libdmjavaplugin.so
 lib/libdmjavaplugin.so:priv-app/DMService/lib/arm/libdmjavaplugin.so
-lib/libgps.utils.so
-lib/libloc_api_v02.so
-lib/libloc_core.so
-lib/libloc_ds_api.so
-lib/libloc_eng.so
 lib/libmmcamera_interface.so
 lib/libmmjpeg_interface.so
 lib/libqomx_core.so
 lib/soundfx/libfmas.so
 lib64/hw/fingerprint.bullhead.so
-lib64/hw/gps.msm8992.so
 lib64/hw/nfc_nci.bullhead.so
 lib64/lib_fpc_tac_shared.so
-lib64/libgps.utils.so
-lib64/libloc_api_v02.so
-lib64/libloc_core.so
-lib64/libloc_ds_api.so
-lib64/libloc_eng.so
