@@ -28,6 +28,15 @@ PRODUCT_PACKAGES := \
 PRODUCT_PROPERTY_SET += \
     dalvik.vm.dex2oat-Xmx=1024m
 
+# GPS
+PRODUCT_PACKAGES := \
+    libgps.utils \
+    libloc_api_v02 \
+    libloc_core \
+    libloc_ds_api \
+    libloc_eng \
+    gps.msm8992 \
+
 # SELinux
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1
