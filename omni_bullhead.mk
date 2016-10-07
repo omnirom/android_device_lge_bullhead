@@ -7,6 +7,10 @@ $(call inherit-product, device/lge/bullhead/aosp_bullhead.mk)
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 
+# Camera
+PRODUCT_PACKAGES += \
+    camera.msm8992
+
 # TWRP
 PRODUCT_COPY_FILES += \
     device/lge/bullhead/twrp.fstab:recovery/root/etc/twrp.fstab
