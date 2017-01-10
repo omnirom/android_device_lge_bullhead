@@ -10,10 +10,6 @@ $(call inherit-product, device/lge/bullhead/aosp_bullhead.mk)
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 
-# Camera
-PRODUCT_PACKAGES += \
-    camera.msm8992
-
 # Allow tethering without provisioning app
 PRODUCT_PROPERTY_OVERRIDES += \
     net.tethering.noprovisioning=true
