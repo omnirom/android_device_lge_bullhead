@@ -10,6 +10,10 @@ $(call inherit-product, vendor/omni/config/common.mk)
 # Inherit our APN list
 $(call inherit-product, vendor/omni/config/gsm.mk)
 
+# GPS
+PRODUCT_PACKAGES += \
+    gps.msm8992
+
 # Override product naming for Omni
 PRODUCT_NAME := omni_bullhead
 PRODUCT_BRAND := google
