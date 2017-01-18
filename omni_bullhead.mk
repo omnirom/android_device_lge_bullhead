@@ -15,6 +15,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1
 
+PRODUCT_PACKAGES +-= \
+    SnapdragonCamera
+
 # TWRP
 PRODUCT_COPY_FILES += \
     device/lge/bullhead/twrp.fstab:recovery/root/etc/twrp.fstab
