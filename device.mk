@@ -238,6 +238,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.1-impl
 
+# GPS packages
+PRODUCT_PACKAGES += \
+    gps.msm8992 \
+    libgps.utils \
+    android.hardware.gps@1.0-impl
+
 # GPS configuration
 PRODUCT_COPY_FILES += \
     device/lge/bullhead/gps.conf:system/etc/gps.conf
