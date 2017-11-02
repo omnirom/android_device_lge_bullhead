@@ -1,3 +1,5 @@
+TARGET_OTA_ASSERT_DEVICE := none
+
 # Inline kernel
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_SOURCE := kernel/lge/bullhead
