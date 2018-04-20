@@ -10,3 +10,5 @@ TARGET_COMPILE_WITH_MSM_KERNEL := true
 # Enable vendor image symlink
 BOARD_NEEDS_VENDORIMAGE_SYMLINK := true
 
+# Sepolicy
+include vendor/omni/sepolicy/sepolicy.mk
