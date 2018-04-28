@@ -7,6 +7,9 @@ $(call inherit-product, device/lge/bullhead/aosp_bullhead.mk)
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 
+# Inherit APNs from vendor
+$(call inherit-product, vendor/omni/config/gsm.mk)
+
 # Override product naming for Omni
 PRODUCT_NAME := omni_bullhead
 PRODUCT_BRAND := google
