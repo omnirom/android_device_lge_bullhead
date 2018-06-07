@@ -21,6 +21,6 @@ PRODUCT_MODEL := Nexus 5X
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="bullhead-user 8.1.0 OPM4.171019.016.A1 4720815 release-keys"
+    PRIVATE_BUILD_DESC="bullhead-user 8.1.0 OPM6.171019.030.B1 4768815 release-keys"
 
-BUILD_FINGERPRINT := "google/bullhead/bullhead:8.1.0/OPM4.171019.016.A1/4720815:user/release-keys"
+BUILD_FINGERPRINT := "google/bullhead/bullhead:8.1.0/OPM6.171019.030.B1/4768815:user/release-keys"
